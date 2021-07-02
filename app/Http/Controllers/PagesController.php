@@ -12,7 +12,7 @@ class PagesController extends Controller
     }
     public function about(){
         $title = 'About us: This is a little project for laravel course final exam by tate keldishvili.
-        Here you can register or log into our service and view, add , remove or edit posts';
+        Here you can register or log into our service and add , remove, edit posts and then view them on Dashboard.';
         return view('pages.about')->with('title', $title);
     }
     public function services(){
